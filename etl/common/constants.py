@@ -19,7 +19,7 @@ class MetaProcessFormat(Enum):
     """
 
     META_DATE_FORMAT = '%Y-%m-%d'
-    META_PROCESS_DATE_FORMAT = '%Y-%m-%d %H:-%M:-%s'
+    META_PROCESS_DATE_FORMAT = '%Y-%m-%d %H:%M:%S'
     META_SOURCE_DATE_C = 'source_date'
     META_PROCESS_C = 'datetime_of_processing'
     META_FILE_FORMAT = 'csv'
